@@ -1,10 +1,527 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header class="header">
+  <div class="header-content">
+    <div class="container">
+      <div class="nav">
+        <div class="logo">
+          <span class="logo-name">Dasteen</span>
+          <span class="logo-dot">.Blog</span>
+        </div>
+        <div class="menu">
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">About Me</a></li>
+            <li>
+              <a class="search-item" href="#">
+                <img src="img/search.svg" alt="Search">
+                <span>Search</span>
+              </a>
+            </li>
+          </ul>
+          <button class="btn">
+            <img src="img/coffe.svg" alt="Coffee">
+            <span>Buy Me a Coffee</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
+<main class="main">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-description">
+            <h1>Hi, I’m Dasteen<br>Front End Dev</h1>
+            <p>On this blog I share tips and tricks, frameworks, projects, tutorials, etc
+              Make sure you subscribe to get the latest updates</p>
+            <div class="input">
+              <input type="text" placeholder="Enter your email here....">
+              <button class="hero-btn">Subscribe</button>
+            </div>
+          </div>
+          <div class="hero-img">
+            <img src="img/learn-coding%201.png" alt="hero">
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- ---------------------------------------category---------------------------------------->
+    <section class="categories">
+      <div class="container">
+        <div class="cards">
+          <div class="cards-title">
+            <span>Browse the category</span>
+            <div class="title-text">
+              <span>See all category</span>
+              <img src="img/arrow.svg" alt="Arrow">
+            </div>
+          </div>
+          <div class="cards-wrapper">
+            <div class="card">
+              <img src="img/CSS.svg" alt="CSS">
+              <p>CSS</p>
+            </div>
+            <div class="card">
+              <img src="img/javascript.svg" alt="JavaScript">
+              <p>Javascript</p>
+            </div>
+            <div class="card">
+              <img src="img/Tailwind.svg" alt="Tailwind">
+              <p>Tailwind</p>
+            </div>
+            <div class="card">
+              <img src="img/VueJS.svg" alt="VueJS">
+              <p>Vue JS</p>
+            </div>
+            <div class="card">
+              <img src="img/ReactJS.svg" alt="ReactJS">
+              <p>React JS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!------------------------cards------------------------------------->
+  <section class="articles">
+    <div class="container">
+      <div class="article-content">
+        <div class="article">
+          <div class="cards-title">
+            <span>Featured Article</span>
+            <div class="title-text">
+              <span>See all category</span>
+              <img src="img/arrow.svg" alt="Arrow">
+            </div>
+          </div>
+          <div class="cards-content">
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/Fundamental.png" alt="Fundamental">
+                <h3>Fundamental of Javascript</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/Grid.png" alt="Grid">
+                <h3>Grid CSS make your life easier</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/Make.png" alt="Make">
+                <h3>Make animated light mode and dark mode toggle with CSS</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/TicTac.png" alt="TicTac">
+                <h3>Make tic tac toe games with react JS</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -----------------    CSS----------------->
+        <div class="article">
+          <div class="cards-title">
+            <span>CSS</span>
+            <div class="title-text">
+              <span>See all category</span>
+              <img src="img/arrow.svg" alt="Arrow">
+            </div>
+          </div>
+
+          <div class="cards-content">
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/Flex.png" alt="Flex">
+                <h3>Flexbox cSS : Everything you need to know</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/Grid.png" alt="Grid">
+                <h3>Grid CSS make your life easier</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/Easy.png" alt="Easy">
+                <h3>3 easy way to make div center</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/Make.png" alt="Make">
+                <h3>Make animated light <br>mode and dark mode toggle with CSS</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--------------------------JS----------------------------------->
+        <div class="article">
+          <div class="cards-title">
+            <span>Javascript</span>
+            <div class="title-text">
+              <span>See all category</span>
+              <img src="img/arrow.svg" alt="Arrow">
+            </div>
+          </div>
+
+          <div class="cards-content">
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/array.png" alt="Array">
+                <h3>array in javasript - Learn JS #3</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/Fundamental.png" alt="Fundamental">
+                <h3>Fundamental of Javascript</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/project.png" alt="Project">
+                <h3>7 project with javascript you must try for your portfolio</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/calculator.png" alt="Calculator">
+                <h3>make simple calculator with javascript</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------------------------React--------------------->
+        <div class="article">
+          <div class="cards-title">
+            <span>React JS</span>
+            <div class="title-text">
+              <span>See all category</span>
+              <img src="img/arrow.svg" alt="Arrow">
+            </div>
+          </div>
+
+          <div class="cards-content">
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/first.png" alt="first month of leaning react jS">
+                <h3>first month of leaning react jS</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/markdown.png" alt="build markdown editor with react JS">
+                <h3>build markdown editor with react JS</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/react%20JS.png" alt="ReactJS">
+                <h3>getting started with react JS</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card-description">
+              <div class="card-header">
+                <img src="img/TicTac.png" alt="TicTac">
+                <h3>Make tic tac toe games with react JS</h3>
+              </div>
+              <div class="card-footer">
+                <img src="img/Dasteen.svg" alt="Dasteen">
+                <div class="card-details">
+                  <h4>Dasteen</h4>
+                  <div class="card-info">
+                    <span>Jan 10, 2022</span>
+                    <span>&#8226</span>
+                    <span>3 Min Read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn-more">
+      <div class="container">
+        <div class="more-article">
+          <button class="btn-more-article">More Article</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="subscribe">
+    <div class="container">
+      <div class="subscribe-content">
+        <div class="section-subscribe">
+          <img  src="img/post.png" alt="Subscribe">
+          <div class="section-text">
+            <h2>Subscribe For the lastest updates</h2>
+            <p>Subscribe to newsletter and never miss the new post every week.</p>
+          </div>
+        </div>
+        <div class="input-subscribe">
+          <input type="text" placeholder="Enter your email here....">
+          <button class="hero-btn">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="logo-footer">
+        <div class="logo-footer2">
+          <span class="logo-name">Dasteen</span>
+          <span class="logo-dot-2">.Blog</span>
+        </div>
+        <p>Digitaldastin by Dastin Darmawan</p>
+        <div class="social-icons">
+          <img src="img/monogram.png" alt="Monogram">
+          <img src="img/Vector.svg" alt="Twitter">
+          <img src="img/instagram.svg" alt="Instagram">
+          <img src="img/linkedin.svg" alt="LinkedIn">
+        </div>
+      </div>
+      <div class="nav-footer">
+        <div class="nav-footer-category">
+          <h3>Category</h3>
+          <ul class="list-footer">
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">Tailwind</a></li>
+            <li><a href="#">React JS</a></li>
+            <li><a href="#">More Category</a></li>
+          </ul>
+        </div>
+        <div class="nav-footer-category">
+          <h3>About Me</h3>
+          <ul class="list-footer">
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Achievement</a></li>
+          </ul>
+        </div>
+        <div class="nav-footer-category">
+          <h3>Get in touch</h3>
+          <ul class="list-footer">
+            <li><a href="#">+62-8XXX-XXX-XX</a></li>
+            <li><a href="#">demo@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="nav-footer-category">
+          <h3>Follow Us</h3>
+          <ul class="list-footer">
+            <li><a href="#">Medium</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+        <span>© 2025 Digitaldastin</span>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
